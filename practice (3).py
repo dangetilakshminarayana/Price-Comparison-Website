@@ -6,7 +6,7 @@ import sqlite3
 root = Tk()
 display = Label(root)
 root.configure(bg='light green')
-root.title("HANGMAN GAME")
+root.title("HANGMAN  GAME")
 root.geometry('900x500')
 Email=StringVar()
 Password=StringVar()      
