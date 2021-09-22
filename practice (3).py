@@ -1,5 +1,3 @@
-
-
 from tkinter import *
 import os
 import sqlite3
@@ -26,16 +24,12 @@ def database():
 
 def shop():
         
-        
-
         database()
 
         root=Tk()
         root.geometry("1600x8000")
         root.title("WISHLIST WEBSITE")
         root.configure(bg='light green')
-
-     
 
         NAME= StringVar()
 
@@ -61,7 +55,6 @@ def shop():
         Label(root,bd=16,bg="light green",fg="black",font=('Times',12,'bold'),width=10,text="Xiomi_A3").place(x=50,y=400)
         Label(root,bd=16,bg="light green",fg="black",font=('Times',12,'bold'),width=10,text="Coolpad_3").place(x=50,y=440)
         Label(root,bd=16,bg="light green",fg="black",font=('Times',12,'bold'),width=10,text="One_plus_7T").place(x=50,y=480)
-
 
         Label(root,bd=16,bg="light green",fg="black",font=('Times',12,'bold'),width=10,text="Chair").place(x=320,y=200)
         Label(root,bd=16,bg="light green",fg="black",font=('Times',12,'bold'),width=10,text="Table").place(x=320,y=240)
@@ -108,13 +101,6 @@ def shop():
         Button(root,bd=16,fg="black",font=('Times',16,'bold'),width=14,text="COMPARE DATA",bg="goldenrod",command=new).place(x=1000,y=550)
 
         root.mainloop()
-
-
-        
-        
-
-
-
         
 def new():
        
@@ -197,7 +183,6 @@ def new():
                if flag !=0:
                    messagebox.showinfo("Title", "NOT FOUND")
            working.close()
-        
             
        def clearitem():
              entry1.delete(0, END)
@@ -206,7 +191,6 @@ def new():
              entry4.delete(0, END)
              entry5.delete(0, END)
              entry6.delete(0, END)
-
 
        def qExit():
              qExit= messagebox.askyesno("Quit The System","Do you want to quit(y/n)?")
