@@ -241,8 +241,6 @@ def new():
 
        root.mainloop()
 
-       
-
 ##############
 Label(root,text="Email",bg="light green", font=('times new roman', 20,"bold")).place(x=100,y=100)
 Entry(root,textvar=Email,bg="goldenrod",bd=10, font=('times new roman', 20,"bold")).place(x=300,y=100)
